@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rocky.distinktads.DistinktAds">
+
+    <ImageView
+        android:gravity="center"
+        android:layout_height="350dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/img1"
+        android:scaleType="centerCrop"
+        android:id="@+id/image"
+        />
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="             Distinkt Ads"
+        android:id="@+id/ads"
+        android:layout_below="@+id/image"
+        android:textSize="34sp"
+        android:textColor="#00080A"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n Contact: 905-450-3061 email: rtyer3@gmail.com Address: 9 Roseville Dr"
+        android:id="@+id/contact"
+        android:layout_below="@id/ads"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#00080A"
+
+
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nMonday - Friday 9AM to 9PM. Weekends 12PM to 5PM \n \n website: http://distinktgroup.com/ "
+        android:id="@+id/hours"
+        android:layout_below="@+id/contact"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#00080A"
+
+
+
+        />
+
+</RelativeLayout>
